@@ -15,5 +15,6 @@ public class CounterIncrementer implements Runnable
 
     }
     System.out.println(Thread.currentThread().getName() + " : " + counter.getValue());
+    System.out.println("THis is counter incrementer");
   }
 }
