@@ -1,3 +1,5 @@
+package counter;
+
 public class TestCounter
 {
   public static void main(String[] args) throws InterruptedException
