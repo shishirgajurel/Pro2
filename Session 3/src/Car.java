@@ -1,14 +1,14 @@
-public class Car  extends Thread{
+public class Car {
 
     private int id;
-    private TrafficLight trafficLight;
+  //  private TrafficLight trafficLight;
 
-    public Car(int id, TrafficLight trafficLight) {
+    public Car(int id) {
         this.id = id;
-        this.trafficLight = trafficLight;
+  //      this.trafficLight = trafficLight;
     }
 
-    public synchronized void reactToLight(String currentLight) {
+    public  void reactToLight(String currentLight) {
         String reaction = switch (currentLight) {
             case "GREEN" -> "Car " + id + " drives";
             case "YELLOW" -> "Car " + id + " slows down";
