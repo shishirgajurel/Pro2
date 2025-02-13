@@ -11,13 +11,22 @@ public class TestCounter
     Thread thread = new Thread(incrementer, "Incrementer 1");
     Thread thread1 = new Thread(incrementer1, "Incrementer 2");
     Thread thread2 = new Thread(incrementer2, "Incrementer 3");
+
     thread.start();
-    Thread.sleep(200);
+   // Thread.sleep(200);
     thread1.start();
-    Thread.sleep(200);
-    thread2.start();
-    Thread.sleep(200);
+   // Thread.sleep(200);
+    //thread2.start();
+   // Thread.sleep(200);
 
     System.out.println(Thread.currentThread().getName() + " : " + counter.getValue());
+
+    new Thread(()->{
+      for (int i = 0; i < 10; i++)
+      {
+        System.out.println(i);
+      }
+      System.out.println("Lambda Thread");
+    }).start();
   }
 }

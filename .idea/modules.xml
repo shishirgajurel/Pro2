@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Session2/Exercise 1/Exercise 1.iml" filepath="$PROJECT_DIR$/Session2/Exercise 1/Exercise 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session2/Exercise 2/Exercise 2.iml" filepath="$PROJECT_DIR$/Session2/Exercise 2/Exercise 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session2/Exercise 3/Exercise 3.iml" filepath="$PROJECT_DIR$/Session2/Exercise 3/Exercise 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session1/Exercise1/Exercise1.iml" filepath="$PROJECT_DIR$/Session1/Exercise1/Exercise1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session1/Exercise1Fix/Exercise1Fix.iml" filepath="$PROJECT_DIR$/Session1/Exercise1Fix/Exercise1Fix.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session1/Exercise2/Exercise2.iml" filepath="$PROJECT_DIR$/Session1/Exercise2/Exercise2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session1/Exercise3/Exercise3.iml" filepath="$PROJECT_DIR$/Session1/Exercise3/Exercise3.iml" />
       <module fileurl="file://$PROJECT_DIR$/PRO2_Sessions.iml" filepath="$PROJECT_DIR$/PRO2_Sessions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session 3/Session 3.iml" filepath="$PROJECT_DIR$/Session 3/Session 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session1/Session1.iml" filepath="$PROJECT_DIR$/Session1/Session1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session2/Session2.iml" filepath="$PROJECT_DIR$/Session2/Session2.iml" />
     </modules>
   </component>
 </project>
