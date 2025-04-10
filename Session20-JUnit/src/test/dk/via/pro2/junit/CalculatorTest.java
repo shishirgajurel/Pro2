@@ -11,7 +11,7 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         //execute test by calling the method to test
         double result = calculator.add(1, 2);
-        //check the result of the test s
+        //check the result of the test
         assertEquals(3, result);
     }
 }
