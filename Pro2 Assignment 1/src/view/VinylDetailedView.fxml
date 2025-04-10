@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.VinylDetailController" spacing="10">
+    <Label fx:id="vinylLabel" />
+    <Button text="Reserve" onAction="#reserveVinyl" />
+    <Button text="Borrow" onAction="#borrowVinyl" />
+    <Button text="Return" onAction="#returnVinyl" />
+    <Button text="Remove" onAction="#removeVinyl" />
+</VBox>
